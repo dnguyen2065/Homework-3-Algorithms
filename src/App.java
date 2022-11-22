@@ -1,5 +1,7 @@
 public class App {
+
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Palindrome p = new Palindrome();
+        p.palindromeCheck("Able was I ere I saw Elba.", 0);
     }
 }
