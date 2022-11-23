@@ -25,7 +25,6 @@ public class App {
         System.out.println("Q3---------------------------------------");
         BinaryReflectedGrayCode brcg = new BinaryReflectedGrayCode();
         ArrayList<String> input = brcg.BRCG(4);
-        // System.out.println(brcg.nameSequence(input));
         brcg.allTogether(brcg.nameSequence(input), input);
     }
 }
