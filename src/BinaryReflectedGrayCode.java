@@ -57,7 +57,7 @@ public class BinaryReflectedGrayCode {
 
     }
 
-    public void allTogether(ArrayList<String> names, ArrayList<String> GC) {
+    public void grayCodesAreFun(ArrayList<String> names, ArrayList<String> GC) {
         System.out.println("Index, Gray Code, Child(ren) in Photo, Action");
         int counterA = 0;
         int counterB = 0;
